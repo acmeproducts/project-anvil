@@ -1,19 +1,19 @@
 {
-  "name": "My PWA",
-  "short_name": "PWA",
-  "description": "A simple PWA hosted on GitHub Pages",
+  "name": "Dynamic Tabs PWA",
+  "short_name": "TabsPWA",
+  "description": "A Progressive Web App with dynamic tabs loaded from a CSV file.",
   "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#0d47a1",
   "icons": [
     {
-      "src": "images/icon-192.png",
+      "src": "/images/icon-192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "images/icon-512.png",
+      "src": "/images/icon-512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
