@@ -1,7 +1,6 @@
 {
   "name": "Dynamic Tabs PWA",
   "short_name": "TabsPWA",
-  "description": "A Progressive Web App with dynamic tabs loaded from a CSV file.",
   "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#ffffff",

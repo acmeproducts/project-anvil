@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const tabsContainer = document.getElementById('tabs');
   const iframe = document.getElementById('tabContent');
 
-  const csvFileUrl = './tabs.csv';
+  const csvFileUrl = 'tabs.csv';  // CSV file to read from
 
   function parseCSV(data) {
     const rows = data.split('\n');
@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function () {
     .then(response => response.text())
     .then(data => {
       parseCSV(data);
-      setActiveTab(0);
+      setActiveTab(0); // Set the first tab active by default
     })
     .catch(error => console.error('Error loading CSV file:', error));
 });
